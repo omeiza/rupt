@@ -1,16 +1,72 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Sombra', Helvetica Neue, sans-serif; */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.05em;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container,
+.darkContainer {
+    background-color: white;
+    color: #232323;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: white;
+    color: #232323;
+}
+
+.darkContainer {
+    color: white;
+    background-color: #232323;
+}
+
+.container:before,
+.darkContainer:before {
+    position: absolute;
+    content: "";
+    height: 151px;
+    width: 174px;
+    background-image: url("./../public/pointing-hand.png");
+    background-repeat: no-repeat;
+    background-size: 174px 151px;
+    top: 30%;
+    right: -10px;
+}
+
+@media (max-width: 600px) {
+    html,
+    body {
+        font-size: 1em;
+    }
+
+    .container:before,
+    .darkContainer:before {
+        height: 57px;
+        width: 66px;
+        background-size: 66px 57px;
+        top: 40%;
+        right: -10px;
+    }
 }
