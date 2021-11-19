@@ -74,7 +74,6 @@ export default function Home() {
                             <p>Cryptocurrencies are beautiful, but they’re just one of the hundreds of the blockchain’s use cases.</p>
                             <p>Rupt is bridging the knowledge and access gap to decentralization; the blockchain, DeFi, dApps, NFTs, Web 3, and all other attendant technologies, regulations, and players across the world.</p>
                             <p>Come for the love of knowledge, and stay for the endless opportunities.</p>
-                            <p>Signup to get this simplified awesomeness.</p>
                         </div>
                     </div>
                 </div>
