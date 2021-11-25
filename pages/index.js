@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -27,7 +28,7 @@ export default function Home() {
                     <Image src="/purple-semi-circle.png" alt="Rupt Logo" width={400} height={150} />
                     <div>
                         <h2>Stories That’ll Help You Understand</h2>
-                        <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi...and how they are changing the world.</p>
+                        <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, Gameapps, and how they are changing the world.</p>
                     </div>
                 </div>
                 <div id="form" className={styles.grid}>
@@ -52,7 +53,7 @@ export default function Home() {
                                         <input type="text" name="b_9931b68204c3b60a1e832fc12_1e1de041b0" tabIndex="-1" defaultValue="" />
                                     </div>
                                     <div className="clear">
-                                        <input type="submit" defaultValue="Get in!" name="subscribe" id="mc-embedded-subscribe" className={styles.formButton} />
+                                        <input type="submit" placeholder="Get in!" defaultValue="Get in!" name="subscribe" id="mc-embedded-subscribe" className={styles.formButton} />
                                     </div>
                                 </div>
                             </form>
@@ -72,8 +73,8 @@ export default function Home() {
                         <div className={styles.info}>
                             <h2>ABOUT US</h2>
                             <p>Cryptocurrencies are beautiful, but they’re just one of the hundreds of the blockchain’s use cases.</p>
-                            <p>Rupt is bridging the knowledge and access gap to decentralization; the blockchain, DeFi, dApps, NFTs, Web 3, and all other attendant technologies, regulations, and players across the world.</p>
-                            <p>Come for the love of knowledge, and stay for the endless opportunities.</p>
+                            <p>Rupt is bridging the knowledge and access gap by providing information about decentralization, the blockchain, DeFi, dApps, NFTs, Web 3, regulations, global players, and all other attendant technologies.</p>
+                            <p>Come for the love of knowledge and stay for the endless opportunities.</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +82,7 @@ export default function Home() {
             <main className={styles.subMain}>
                 <div className={styles.gridLarge}>
                     <div href="https://nextjs.org/docs" className={styles.card}>
-                        <h3>Get the Rupt Weekly Newsletter straight into your inbox.</h3>
+                        <h3>Get the Rupt Weekly Letter directly in your inbox.</h3>
                         <a className={styles.likeButton} href="#form">Join</a>
                     </div>
                 </div>
@@ -92,10 +93,10 @@ export default function Home() {
                     <Image src="/rupt-medium.png" alt="Rupt Logo" width={128} height={31} />
                     <div className={styles.footerLinks}>
                         <ul className={styles.social}>
-                            <li><a href="" target="_blank"><Image src="/telegram.png" alt="Rupt Logo" width={32} height={32} /></a></li>
-                            <li><a href="" target="_blank"><Image src="/twitter.png" alt="Rupt Logo" width={32} height={32} /></a></li>
-                            <li><a href="" target="_blank"><Image src="/facebook.png" alt="Rupt Logo" width={32} height={32} /></a></li>
-                            <li><a href="" target="_blank"><Image src="/instagram.png" alt="Rupt Logo" width={32} height={32} /></a></li>
+                            <li><Link href="https://t.me/joinchat/k3S-XhcEAiQ0MGJk"><a target="_blank"><Image src="/telegram.png" alt="Rupt Logo" width={32} height={32} /></a></Link></li>
+                            <li><Link href="https://twitter.com/RuptHQ"><a target="_blank"><Image src="/twitter.png" alt="Rupt Logo" width={32} height={32} /></a></Link></li>
+                            <li><Link href="https://web.facebook.com/RuptHQ"><a target="_blank"><Image src="/facebook.png" alt="Rupt Logo" width={32} height={32} /></a></Link></li>
+                            <li><Link href="https://www.instagram.com/rupthq/"><a target="_blank"><Image src="/instagram.png" alt="Rupt Logo" width={32} height={32} /></a></Link></li>
                         </ul>
                         <a className={styles.privacy} href="" target="_blank">Privacy Policy</a>
                     </div>
