@@ -28,7 +28,7 @@ export default function Home() {
                     <Image src="/purple-semi-circle.png" alt="Rupt Logo" width={400} height={150} />
                     <div>
                         <h2>Stories That’ll Help You Understand</h2>
-                        <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, Gameapps, and how they are changing the world.</p>
+                        <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world.</p>
                     </div>
                 </div>
                 <div id="form" className={styles.grid}>
