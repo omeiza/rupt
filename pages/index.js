@@ -37,7 +37,7 @@ export default function Home() {
                             <form action="https://werupt.us5.list-manage.com/subscribe/post?u=9931b68204c3b60a1e832fc12&amp;id=1e1de041b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className={`validate ${styles.subscribeForm}`} target="_blank" noValidate>
                                 <div id="mc_embed_signup_scroll">
                                     <div className="mc-field-group">
-                                        <input type="text" defaultValue="" name="FNAME" id="mce-FNAME" placeholder="First Name"/>
+                                        <input type="text" defaultValue="" name="FNAME" id="mce-FNAME" placeholder="First Name" className="required"/>
                                     </div>
                                     <div className="mc-field-group">
                                         <input type="hidden" defaultValue="" name="LNAME" id="mce-LNAME" placeholder="Last Name" />
