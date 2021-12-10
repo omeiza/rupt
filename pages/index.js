@@ -41,7 +41,7 @@ export default function Home() {
                         <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world.</p>
                     </div>
                 </div>
-                <div id="form" className={styles.grid}>
+                <div id="join" className={styles.grid}>
                     <div href="https://nextjs.org/docs" className={styles.card}>
                         <div id="mc_embed_signup">
                             <form action="https://werupt.us5.list-manage.com/subscribe/post?u=9931b68204c3b60a1e832fc12&amp;id=1e1de041b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className={`validate ${styles.subscribeForm}`} target="_blank" noValidate>
@@ -93,7 +93,7 @@ export default function Home() {
                 <div className={styles.gridLarge}>
                     <div href="https://nextjs.org/docs" className={styles.card}>
                         <h3>Get the Rupt Weekly Letter directly in your inbox.</h3>
-                        <a className={styles.likeButton} href="#form">Join</a>
+                        <a className={styles.likeButton} href="#join">Join</a>
                     </div>
                 </div>
             </main>
