@@ -27,7 +27,7 @@ export default function Home() {
             <Head>
                 <title>RUPT - Stories that’ll help you understand the blockchain.</title>
                 <meta name="description" content="In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world." />
-                <link rel="icon" href="/favicon.ico" />
+                <link href="/rupt-medium-chopped.png" rel="icon" type="image/png" />
             </Head>
             <main className={styles.main}>
                 <header className={styles.header}>
@@ -37,7 +37,7 @@ export default function Home() {
                 <div className={styles.intro}>
                     <Image src="/purple-semi-circle.png" alt="Rupt Logo" width={400} height={150} />
                     <div>
-                        <h2>Stories That’ll Help You Understand</h2>
+                        <h2>Stories That’ll Help You Understand the blockchain.</h2>
                         <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world.</p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Home() {
             <main className={styles.subMain}>
                 <div className={styles.gridLarge}>
                     <div href="https://nextjs.org/docs" className={styles.card}>
-                        <h3>Get the Rupt Weekly Letter directly in your inbox.</h3>
+                        <h3>Get the Rupt Weekly Newsletter directly in your inbox.</h3>
                         <a className={styles.likeButton} href="#join">Join</a>
                     </div>
                 </div>

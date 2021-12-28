@@ -27,7 +27,7 @@ export default function Home() {
             <Head>
                 <title>RUPT - Privacy Policy</title>
                 <meta name="description" content="In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world." />
-                <link rel="icon" href={"/favicon.ico"} />
+                <link href="/rupt-medium-chopped.png" rel="icon" type="image/png" />
             </Head>
             <main className={styles.main}>
                 <header className={styles.header}>
