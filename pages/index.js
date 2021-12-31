@@ -25,7 +25,7 @@ export default function Home() {
     return (
         <div className={isDark ? 'darkContainer' : 'container'}>
             <Head>
-                <title>RUPT - Stories that’ll help you understand the blockchain.</title>
+                <title>RUPT - Stories that’ll help you understand The Blockchain.</title>
                 <meta name="description" content="In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world." />
                 <link href="/rupt-medium-chopped.png" rel="icon" type="image/png" />
             </Head>
@@ -37,8 +37,8 @@ export default function Home() {
                 <div className={styles.intro}>
                     <Image src="/purple-semi-circle.png" alt="Rupt Logo" width={400} height={150} />
                     <div>
-                        <h2>Stories That’ll Help You Understand the blockchain.</h2>
-                        <p>In 5 minutes, learn about what’s new in blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world.</p>
+                        <h2>Stories That’ll Help You Understand The Blockchain.</h2>
+                        <p>In 5 minutes, learn about what’s new in Blockchain, web 3, crypto, NFTs, dApps, GameFi, and how they are changing the world.</p>
                     </div>
                 </div>
                 <div id="join" className={styles.grid}>
@@ -82,8 +82,8 @@ export default function Home() {
                     <div href="https://nextjs.org/docs" className={styles.card}>
                         <div className={styles.info}>
                             <h2>ABOUT US</h2>
-                            <p>Cryptocurrencies are beautiful, but they’re just one of the hundreds of the blockchain’s use cases.</p>
-                            <p>Rupt is bridging the knowledge and access gap by providing information about decentralization, the blockchain, DeFi, dApps, NFTs, Web 3, regulations, global players, and all other attendant technologies.</p>
+                            <p>Cryptocurrencies are beautiful, but they’re just one of the hundreds of The Blockchain’s use cases.</p>
+                            <p>Rupt is bridging the knowledge and access gap by providing information about decentralization, The Blockchain, DeFi, dApps, NFTs, Web 3, regulations, global players, and all other attendant technologies.</p>
                             <p>Come for the love of knowledge and stay for the endless opportunities.</p>
                         </div>
                     </div>
